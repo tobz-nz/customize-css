@@ -1,0 +1,56 @@
+.text {
+    // sizes
+
+    @for $i from 0 through 7 {
+        &-#{$i} {
+            font-size: var(--text-#{$i});
+        }
+    }
+
+    // weights
+    &-ulta-light {
+        font-weight: var(--weight, 100);
+    }
+
+    &-thin {
+        font-weight: var(--weight, 200);
+    }
+
+    &-light {
+        font-weight: var(--weight, 300);
+    }
+
+    &-normal {
+        font-weight: var(--weight, 400);
+    }
+
+    &-medium {
+        font-weight: var(--weight, 500);
+    }
+
+    &-bold {
+        font-weight: var(--weight, 700);
+    }
+
+    &-heavy {
+        font-weight: var(--weight, 800);
+    }
+
+    &-black {
+        font-weight: var(--weight, 900);
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: var(--text-6);
+}
+
+p {
+    font-size: var(--default-size, 1rem);
+}

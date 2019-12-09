@@ -1,0 +1,14 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    min-height: 100vh;
+
+    color: var(--default-color, var(--grey-0));
+    font: var(--default-weight, 400) var(--default-size, 1rem) / var(--default-lineheight, 1.2) var(--default-font, Roboto, Sans-Serif);
+    background-color: var(--body-bg, white);
+}

@@ -1,0 +1,9 @@
+{
+  "name": "customize-css",
+  "version": "1.0.0",
+  "description": "A css framework focusing on custom properties, utility classes and Atomic Design princables.",
+  "repository": "https://tobz-nz@github.com/tobz-nz/customize-css.git",
+  "author": "Toby Evans <tobz.nz@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
