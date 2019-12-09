@@ -5,5 +5,7 @@
   "repository": "https://tobz-nz@github.com/tobz-nz/customize-css.git",
   "author": "Toby Evans <tobz.nz@gmail.com>",
   "license": "MIT",
-  "private": true
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
